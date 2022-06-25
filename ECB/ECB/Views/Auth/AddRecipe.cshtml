@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Add Recipe";
+}
+
+<div class="row">
+    <div class="col-8">
+        <form method="post">
+            <div class="mb-3">
+                <label for="dish" class="form-label">Choose Recipe</label>
+                <select name="vehicle" class="form-control">
+                    <option value="yomari">Yomari</option>
+                    <option value="guacamole">Guacamole</option>
+                    <option value="chickenTikka">Chicken Tikka</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Added Date</label>
+                <input type="date" class="form-control" id="date" placeholder="date">
+            </div>
+            @*<div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="number" class="form-control" id="price">
+            </div>*@
+            <div class="mb-3">
+                <label for="details" class="form-label">Details</label>
+                <textarea class="form-control" id="details" rows="3" placeholder="Specify the recipe in detailed steps"></textarea>
+            </div>
+            <hr />
+            <button type="submit" class="btn btn-success">Save</button>
+        </form>
+    </div>
+    <div class="col-4">
+        <h3>Available Dishes</h3>
+        <hr/>
+
+        <ul class="list-group">
+            <li class="list-group-item">Dish-1</li>
+            <li class="list-group-item">Dish-2</li>
+            <li class="list-group-item">Dish-3</li>
+            <li class="list-group-item">Dish-4</li>
+            <li class="list-group-item">Dish-5</li>
+        </ul>
+    </div>
+
+</div>
