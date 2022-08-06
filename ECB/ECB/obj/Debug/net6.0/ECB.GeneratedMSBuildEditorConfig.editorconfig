@@ -15,24 +15,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HP\Documents\Orchid International College\VI\NET Centric Computing\Project\ECB\ECB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Auth/AddDish.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBZGREaXNoLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Auth/AddRecipe.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBZGRSZWNpcGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Auth/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxEYXNoYm9hcmQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Auth/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Foods/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Foods/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Foods/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Foods/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Foods/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Foods/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Foods/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HP/Documents/Orchid International College/VI/NET Centric Computing/Project/ECB/ECB/Views/Home/Index.cshtml]

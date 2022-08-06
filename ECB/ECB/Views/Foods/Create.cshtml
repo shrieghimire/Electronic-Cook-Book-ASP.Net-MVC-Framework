@@ -1,0 +1,44 @@
+﻿@model ECB.Models.Food
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Add Dish</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @if(TempData["msg"] is not null)
+        {
+            <div class="alert alert-success">@TempData["msg"]</div>
+        }
+        @if(TempData["error"] is not null)
+        {
+            <div class="alert alert-danger">@TempData["error"]</div>
+        }
+        <form method="post" asp-action="Create" asp-controller="foods">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label" placeholer= "Eg: Mo:Mo"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div><br />
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"> </textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div><br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Create Food";
+}
+@model ECB.Models.Food
+
+<div class="row jusity-content-md-center">
+    <div class="col-8">
+        <h4 class="text-danger">Create Recipe</h4>
+        <hr/>
+        @if (TempData["msg"] is not null)
+        {
+            <div class="alert alert-success">@TempData["msg"]</div>
+        }
+          @if (TempData["error"] is not null)
+        {
+            <div class="alert alert-danger">@TempData["error"]</div>
+        }
+        <form method="post" asp-controller="Recipe" asp-action="Create">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+
+             <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <textarea asp-for="Description" class="form-control"> </textarea>
+                <span class="text-danger" asp-validation-for="Description" rows="3" placeholder="Say something about the dish"></span>
+            </div>
+            <hr/>
+            <button type="submit" class="btn btn-success">Save</button>
+        </form>
+    </div>
+</div>

@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using ECB.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+string connectionString = "Data Source=SHREE;Initial Catalog=ECB;User ID=sa;Password=nepal123";
+builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString));
+
 
 var app = builder.Build();
 

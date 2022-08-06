@@ -12,17 +12,5 @@ namespace ECB.Controllers
         {
             return View();
         }
-        public IActionResult Dashboard()
-        {
-            return View();
-        }
-        public IActionResult AddDish()
-        {
-            return View();
-        }
-        public IActionResult AddRecipe()
-        {
-            return View();
-        }
     }
 }
